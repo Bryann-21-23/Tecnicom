@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnicom</title>
+    <meta name="description" content="Tecnicom - La convención de tecnología en desarrollo web">
+    <link rel="icon" href="./images/logotecnicom.ico" type="image/x-icon">
+    <link rel="icon" href="./images/logotecnicom.png" type="image/png">
+    <meta property="og:title" content="Tecnicom">
+    <meta property="og:description" content="Convención de Tecnología orientada a programación">
+    <meta property="og:image" content="./images/promocion-convencion.jpg">
+    <meta property="og:url" content="http://127.0.0.1:3000/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_PE">
+    <meta property="og:site_name" content="Tecnicom">
+</head>
+<body>
+
+    <header style="text-align: center;">
+        <img src="./images/promocion-convencion.jpg" alt="Imagen de promoción de la convención" style="width: 70vw;">
+        <h1><strong>Tecnicom</strong></h1>
+        <p>La convención de tecnología en desarrollo web ya está y ha llegado para quedarse con las actualizaciones que el programa que tú usas necesitaron y hoy por hoy te harán mejor <strong> developer</strong> que ayer.</p>
+
+    </header>
+
+    <main>  
+
+
+        <form style="display: flex; flex-direction: column;">
+            <fieldset style="display: flex; flex-direction: column;">
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </fieldset>
+
+            <fieldset style="display: flex; flex-direction: column;">
+                <legend>Selecciona tu entrada</legend>
+                <label for="seleccionentrada">Selecciona tu tipo de entrada:</label>
+                <select id="seleccionentrada" name="seleccionentrada" required>
+                    <option value="general">Entrada General - S/.50</option>
+                    <option value="estudiante">Entrada Estudiante - S/.30</option>
+                    <option value="vip">Entrada VIP - S/.100</option>
+                </select>
+
+                <label for="comentario">Déjanos tu comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                <label for="enviar">Aceptar términos y condiciones:</label>
+                <input type="checkbox" id="enviar" name="enviar" value="Enviar" required>    
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+
+                <table>
+            <thead>
+                <tr>
+                    <th>Conferencia</th>
+                    <th>Hora de inicio</th>
+                    <th>Tema</th>
+                    <th>Expositor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>10 am</td>
+                    <td>Buenas prácticas</td>
+                    <td>Midudev</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>2 pm</td>
+                    <td>Animaciones</td>
+                    <td>Midudev</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>5 pm</td>
+                    <td>El poder de la terminal</td>
+                    <td>Bryann B.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <video autoplay muted style="width: 100%;">
+            <source src="./videos/videopromocional.mp4" type="video/mp4">
+        </video>
+
+        <audio autoplay aria-label="Anuncio de la convención">
+            <source src="./audios/audiopromocional.mp3" type="audio/mp3">
+        </audio>
+
+    </main>
+    
+
+
+<footer>
+    <hr>
+    <address>
+        <p>Contacto: info@tecnicom.com</p>
+        <p>Teléfono: +1 234 567 890</p>
+        <p>Dirección: av Lima 123, Lima, Perú</p>
+
+
+        <p><strong>Síguenos en nuestras redes Sociales:</strong></p>
+        <ul>
+            <li><a href="https://www.facebook.com/tecnicom" target="_blank" aria-label="Facebook" rel="noreferrer">Facebook</a></li>
+            <li><a href="https://www.twitter.com/tecnicom" target="_blank" aria-label="Twitter" rel="noreferrer">Twitter</a></li>
+            <li><a href="https://www.instagram.com/tecnicom" target="_blank" aria-label="Instagram" rel="noreferrer">Instagram</a></li>
+        </ul>
+    </address>
+
+</footer>
+</body>
+</html>
+
+
